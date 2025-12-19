@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+.front-bgimage{
+    background-image: url("https://new-assets.ccbp.in/frontend/static-website/moon-stars-bg.png");
+    background-size: cover;
+    height: auto;
+}
+.front-head{
+    color: #ffffff;
+    font-family: "Bree Serif";
+    text-align: center;
+    font-size: 22px;
+}
+.front-top-paragraph{
+    color: #98a1bd;
+    font-family: "Bree Serif";
+     text-align: center;
+     font-size: 15px ;
+     font-weight: 100;
+    
+}
+.front-container-image{
+    height: 200px;
+    width: 400px;
+    padding-left: 30px;
+    
+}
+.bottom-container-front{
+    padding-top: 100px;
+}
+.top-container-front{
+     padding-top: 100px;
+    
+}
+.button-front{
+    background-color: #8e97fd;
+    color: #ffffff;
+    border-radius: 20px;
+    height: 40px;
+    width: 150px;
+    
+    
+}
+.secondpage-bg{
+    background-color: #03174c;
+}
+.secondpage-bg-img{
+    height: 250px;
+    width: 500px;
+    border-radius: 10px;
+
+}
+.back-head{
+    color: #ffffff;
+    font-family: "Bree Serif";
+    text-align: left;
+    font-size: 22px;
+}
+.back-top-paragraph{
+    color: #98a1bd;
+    font-family: "Bree Serif";
+     text-align: left;
+     font-size: 15px ;
+     font-weight: lighter;
+    
+}
+.back-bottom-paragraph{
+    color: #98a1bd;
+    font-family: "Bree Serif";
+     text-align: left;
+     font-size: 10px ;
+     font-weight: lighter;
+}
+.back-head-bottom{
+    color: #ffffff;
+    font-family: "Bree Serif";
+    text-align: left;
+    font-size: 15px;
+}
+.imgae{
+    height: 120px;
+    width: 150px;
+}
+.bottom{
+    margin-right:30px;
+}
+/* Desktop view (min-width 992px) */
+@media screen and (min-width: 992px) {
+
+    .front-bgimage,
+    .secondpage-bg {
+        min-height: 100vh;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .top-container-front,
+    .bottom-container-front {
+        max-width: 900px;
+        margin: auto;
+    }
+
+    .front-container-image {
+        width: 500px;
+        height: auto;
+        padding-left: 0;
+        display: block;
+        margin: 0 auto;
+    }
+
+    .secondpage-bg-img {
+        width: 700px;
+        height: auto;
+        display: block;
+        margin: 0 auto 20px auto;
+    }
+
+    .back-head,
+    .back-top-paragraph {
+        text-align: center;
+    }
+
+    .d-flex.flex-row.justify-content-center {
+        gap: 40px;
+    }
+
+    .button-front {
+        margin: 30px auto;
+        display: block;
+    }
+}
